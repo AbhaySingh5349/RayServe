@@ -1,0 +1,40 @@
+{
+    "proxies": {
+        "2cb84678fc80a3eb65440d5794a48b33982012a1b3d47ab5a8b60276": "HEALTHY"
+    },
+    "applications": {
+        "app1": {
+            "status": "RUNNING",
+            "last_deployed_time": 1728886018.855802,
+            "deployments": {
+                "downloader": {
+                    "status": "HEALTHY",
+                    "replica_states": {
+                        "RUNNING": 1
+                    },
+                    "message": ""
+                },
+                "ImageClassifier": {
+                    "status": "HEALTHY",
+                    "replica_states": {
+                        "RUNNING": 1
+                    },
+                    "message": ""
+                }
+            }
+        },
+        "app2": {
+            "status": "RUNNING",
+            "last_deployed_time": 1728886018.855802,
+            "deployments": {
+                "Translator": {
+                    "status": "HEALTHY",
+                    "replica_states": {
+                        "RUNNING": 1
+                    },
+                    "message": ""
+                }
+            }
+        }
+    }
+}
